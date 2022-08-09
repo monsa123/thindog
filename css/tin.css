@@ -1,0 +1,485 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  position: relative;
+  background-color: #ff4c68;
+  padding-top: 40px;
+}
+.header .navbar .collapse {
+  position: relative;
+  justify-content: end;
+}
+.header .navbar .navbar-brand {
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+.header .navbar .navbar-brand:hover {
+  color: #ffffff;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.header .navbar .collapse .navbar-nav .nav-item {
+  margin: 0px 20px;
+  position: relative;
+}
+.header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #e7dada;
+}
+.header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+/* Banner Portaion Css */
+
+.banner-portaion {
+  background-color: #ff4c68;
+  padding-bottom: 60px;
+}
+.banner-containt {
+  position: relative;
+  padding-top: 100px;
+}
+.banner-containt h1 {
+  margin: 0;
+  font-size: 65px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+}
+.download-btn {
+  position: relative;
+  padding-top: 60px;
+}
+.download-btn .download-left {
+  background-color: #383838!important;
+  color: #fff!important;
+  font-family: 'Montserrat'!important;
+  font-weight: 400!important;
+  margin-right: 22px!important;
+}
+.download-btn .download-left:hover {
+  color: #fff!important;
+  background-color: #000!important;
+  transition: 0.5s ease!important;
+  cursor: pointer!important;
+}
+.download-btn .download-rignt {
+  background-color: #ff4c68!important;
+  color: #fff!important;
+  font-family: 'Montserrat'!important;
+  font-weight: 400!important;
+  margin-right: 25px!important;
+  border: solid 1px #fff;
+}
+.download-btn .download-rignt:hover {
+  color: #000!important;
+  background-color: #fff!important;
+  transition: 0.5s ease!important;
+  cursor: pointer!important;
+}
+.banner-wrap img {
+  padding: 1.25rem;
+  width: 65%;
+  transform: rotate(20deg);
+  margin-top: 40px;
+}
+
+/* Features */
+
+.middle-portaion {
+  padding: 150px 0px;
+  position: relative;
+}
+.elite-wrap {
+  text-align: center;
+  position: relative;
+}
+.elite-wrap .fa {
+  font-size: 70px;
+  font-weight: 200;
+  font-family: 'FontAwesome';
+  color: #ed6c80;
+  line-height: 1.6;
+}
+.elite-wrap .fa:hover {
+  color: #ff4c68;
+  transform: rotate(360deg);
+  transition: .8s ease;
+  cursor: pointer;
+}
+.elite-wrap h3 {
+  margin: 0;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.elite-wrap p {
+  margin: 0;
+  font-size: 17px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  line-height: 2.5;
+}
+
+/* Slider Show */
+
+.slider-show {
+  position: relative;
+  background-color: #ef8172;
+  padding: 150px 0px 50px 0px;
+}
+.carousel-inner .carousel-item h2{
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+.d-block {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+.empas {
+  color: #fff;
+}
+.em {
+  color: #fff;
+}
+.logo-wraper {
+  background-color: #ef8172;
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+.bot-logo img {
+  width: 100%;
+  height: 100px;
+}
+
+/* Pricing */
+
+.dogs-neds {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.neds-title h2 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.7;
+}
+.neds-title p {
+  margin: 0;
+  font-size: 17px;
+  font-family: 'Montserrat';
+  text-align: center;
+  font-weight: 400;
+  color: #757576;
+}
+.card-wrap {
+  position: relative;
+  padding-top: 60px;
+}
+.card-header {
+  background-color: #fff!important;
+}
+.card-header h3 {
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 2;
+}
+.card-body h2 {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 2;
+}
+.card-text {
+  margin: 0;
+  line-height: 2.5;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #757576;
+}
+.btn-wrap {
+  width: 100%;
+  line-height: 1.3;
+  margin-top: 10px;
+  border: solid 1px #000;
+  background-color: #fff;
+  color: #000;
+}
+.btn-wrap:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn-same {
+  width: 100%;
+  border: solid 1px #000;
+  background-color: #000;
+  color: #fff;
+  margin-top: 10px;
+}
+.btn-same:hover {
+  border: solid 1px #000;
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+/* Copyright */
+
+.footer {
+  background-color: #000;
+  padding: 30px;
+}
+.copyright {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #fff;
+}
+.font-icon .fa-facebook {
+  font-size: 24px;
+  font-family: 'FontAwesome';
+  margin: 10px;
+  color: #ff4c68;
+  border: solid 2px #ff4c68;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.font-icon .fa-instagram {
+  font-size: 24px;
+  font-family: 'FontAwesome';
+  margin: 10px;
+  color: #ff4c68;
+  border: solid 2px #ff4c68;
+  padding: 10px 12px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.font-icon .fa-twitter {
+  font-size: 24px;
+  font-family: 'FontAwesome';
+  margin: 10px;
+  color: #ff4c68;
+  border: solid 2px #ff4c68;
+  padding: 10px 12px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.font-icon .fa:hover {
+  background-color: #ff4c68;
+  color: #fff;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+/* Mobile Resposive Css */
+
+@media (min-width:768px) and (max-width:992px) {
+.banner-wrap img {
+  padding-left: 70px;
+}
+.bot-logo img {
+  margin-bottom: 50px;
+}
+.d-block {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.middle-portaion {
+  padding: 100px 0px;
+}
+}
+@media (min-width:576px) and (max-width:767px) {
+.banner-containt {
+  padding-top: 70px;
+}
+.banner-containt h1 {
+  font-size: 55px;
+}
+.bot-logo img {
+  width: 70%;
+  margin-bottom: 40px;
+}
+.d-block {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.banner-wrap img {
+  padding-left: 70px;
+}
+.middle-portaion {
+  padding: 80px 0px;
+}
+}
+@media (min-width:480px) and (max-width:575px) {
+  .banner-containt {
+    padding-top: 70px;
+  }
+  .banner-containt h1 {
+    font-size: 55px;
+  }
+  .bot-logo img {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .d-block {
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .banner-wrap img {
+    padding-left: 70px;
+  }
+  .middle-portaion {
+    padding: 80px 0px;
+  }
+  .carousel-inner .carousel-item h2 {
+    font-size: 24px;
+  }
+  .elite-wrap h3 {
+    font-size: 24px;
+  }
+  .elite-wrap p {
+    font-size: 15px;
+  }
+  .neds-title h2 {
+    font-size: 26px;
+  }
+  .neds-title p {
+    font-size: 15px;
+  }
+  .card-header h3 {
+    font-size: 24px;
+  }
+  .card-body h2 {
+    font-size: 22px;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+  .dogs-neds {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+@media (min-width:320px) and (max-width:479px) {
+
+  .banner-containt {
+    padding-top: 40px;
+  }
+  .d-block {
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .banner-containt h1 {
+    font-size: 36px;
+  }
+  .bot-logo img {
+    width: 70%;
+    margin-bottom: 30px;
+    height: 70px;
+  }
+  .banner-wrap img {
+    padding-left: 40px;
+  }
+  .slider-show {
+    padding: 100px 0px 0px 0px;
+  }
+  .middle-portaion {
+    padding: 50px 0px;
+  }
+  .logo-wraper {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .carousel-inner .carousel-item h2 {
+    font-size: 20px;
+  }
+  .elite-wrap h3 {
+    font-size: 20px;
+  }
+  .elite-wrap .fa {
+    font-size: 50px;
+  }
+  .elite-wrap p {
+    font-size: 14px;
+  }
+  .neds-title h2 {
+    font-size: 20px;
+  }
+  .neds-title p {
+    font-size: 14px;
+  }
+  .card-header h3 {
+    font-size: 20px;
+  }
+  .card-body h2 {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .dogs-neds {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .btn {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .btn-same {
+    line-height: 1.2;
+    font-size: 15px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
